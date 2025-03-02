@@ -9,7 +9,7 @@ if 'guess' not in st.session_state:
 if 'message' not in st.session_state:
     st.session_state.message = ""
 
-st.title("🎯 Number Guessing Game")
+st.title("Number Guessing Game")
 st.write("Guess a number between 1 and 100!")
 
 user_input = st.number_input("Enter your guess:", min_value=1, max_value=100, step=1)

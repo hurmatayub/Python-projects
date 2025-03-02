@@ -3,7 +3,7 @@ import random
 import string
 import pyperclip
 
-st.title("🔑 Random Password Generator")
+st.title("Random Password Generator")
 
 
 password_length = st.slider("Select Password Length:", min_value=6, max_value=30, value=12)

@@ -7,11 +7,11 @@ def get_winner(user_choice, computer_choice):
     elif (user_choice == "Rock" and computer_choice == "Scissors") or \
          (user_choice == "Paper" and computer_choice == "Rock") or \
          (user_choice == "Scissors" and computer_choice == "Paper"):
-        return "You win! 🎉"
+        return "You win!"
     else:
-        return "Computer wins! 🤖"
+        return "Computer wins!"
 
-st.title("Rock Paper Scissors Game ✊✋✌️")
+st.title("Rock Paper Scissors Game")
 
 options = ["Rock", "Paper", "Scissors"]
 
@@ -19,7 +19,6 @@ user_choice = st.selectbox("Choose your move:", options)
 
 
 computer_choice = st.selectbox("Computer chooses:", options, index=random.randint(0, 2))
-
 
 if st.button("Play!"):
     result = get_winner(user_choice, computer_choice)

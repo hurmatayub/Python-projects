@@ -14,7 +14,7 @@ if 'attempts' not in st.session_state:
 if 'computer_attempts' not in st.session_state:
     st.session_state.computer_attempts = 0
 
-st.title("🎯 User vs Computer: Guess the Number")
+st.title("User vs Computer: Guess the Number")
 st.write("Both you and the computer will try to guess the same random number between 1 and 100!")
 
 
@@ -40,7 +40,7 @@ if st.button("Submit Both Guesses"):
     elif st.session_state.computer_guess > st.session_state.target_number:
         computer_message = f"Computer guessed {st.session_state.computer_guess}. It's too high!"
     else:
-        computer_message = f"🤖 Computer guessed the number {st.session_state.computer_guess} correctly in {st.session_state.computer_attempts} attempts!"
+        computer_message = f"Computer guessed the number {st.session_state.computer_guess} correctly in {st.session_state.computer_attempts} attempts!"
     
     st.session_state.message = user_message + "\n" + computer_message
 

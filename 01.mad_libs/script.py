@@ -11,7 +11,7 @@ def generate_random_story(noun, verb, adjective, place, animal, food, emotion, p
     return random.choice(stories)
 
 def main():
-    st.title("Mad Libs Game 🎭")
+    st.title("Mad Libs Game")
     st.write("Fill in the blanks and generate your story!")
     
     noun = st.text_input("Enter a noun:")

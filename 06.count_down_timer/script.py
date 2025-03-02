@@ -1,7 +1,7 @@
 import streamlit as st
 import time
 
-st.title("⏳ Interactive Countdown Timer")
+st.title("Countdown Timer")
 
 if 'total_seconds' not in st.session_state:
     st.session_state.total_seconds = 0
@@ -61,10 +61,10 @@ if st.session_state.running:
                 break
             hours, remainder = divmod(seconds_remaining, 3600)
             minutes, seconds = divmod(remainder, 60)
-            st.write(f"⏳ Time Remaining: {hours:02}:{minutes:02}:{seconds:02}")
+            st.write(f"Time Remaining: {hours:02}:{minutes:02}:{seconds:02}")
             time.sleep(1)
             st.session_state.total_seconds -= 1
 
         if st.session_state.total_seconds == 0 and not st.session_state.stop:
-            st.write("⏰ Time's up!")
+            st.write("Time's up!")
             st.session_state.running = False
