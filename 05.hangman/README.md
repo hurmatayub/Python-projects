@@ -12,23 +12,6 @@ Play the game online: [Hangman Game](https://hangman-by-hurmat-ayub.streamlit.ap
 - Displays feedback for correct and incorrect guesses
 - Option to restart the game after winning or losing
 
-## Installation
-To run this project locally, follow these steps:
-
-1. Clone this repository:
-   ```sh
-   git clone https://github.com/yourusername/hangman-streamlit.git
-   cd hangman-streamlit
-   ```
-2. Install the required dependencies:
-   ```sh
-   pip install streamlit
-   ```
-3. Run the Streamlit app:
-   ```sh
-   streamlit run app.py
-   ```
-
 ## How to Play
 1. A random word is chosen, and its letters are hidden.
 2. Enter a letter in the input box and click **Submit Guess**.
