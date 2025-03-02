@@ -27,7 +27,7 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/mad-libs-game.git
+git clone https://github.com/hurmatayub/mad-libs-game.git
 ```
 
 2. Navigate to the project folder:
