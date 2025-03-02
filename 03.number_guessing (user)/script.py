@@ -21,7 +21,7 @@ if st.button("Submit Guess"):
     elif st.session_state.guess > st.session_state.target_number:
         st.session_state.message = "Too high! Try again."
     else:
-        st.session_state.message = "🎉 Congratulations! You guessed the correct number!"
+        st.session_state.message = "Congratulations! You guessed the correct number!"
         st.session_state.target_number = random.randint(1, 100) 
 
 st.write(st.session_state.message)
