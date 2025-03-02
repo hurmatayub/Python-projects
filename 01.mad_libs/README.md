@@ -22,28 +22,7 @@ Welcome to the **Mad Libs Game**, a fun and interactive word game where you crea
 3. Enjoy your unique and funny story!
 4. Try again with different words for endless fun!
 
-## Installation
-To run this project locally, follow these steps:
 
-1. Clone the repository:
-```bash
-git clone https://github.com/hurmatayub/mad-libs-game.git
-```
-
-2. Navigate to the project folder:
-```bash
-cd mad-libs-game
-```
-
-3. Install dependencies:
-```bash
-pip install streamlit
-```
-
-4. Run the application:
-```bash
-streamlit run app.py
-```
 
 ## External Links
 - [RedKid.Net's Mad Libs](http://www.redkid.net/madlibs/)
