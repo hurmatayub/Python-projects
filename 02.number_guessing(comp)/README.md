@@ -26,29 +26,6 @@ Welcome to the **User vs Computer: Guess the Number** game! 🎯
 5. Keep guessing until either the user or the computer finds the correct number!
 6. Click **Restart Game** to start over.
 
-## Installation
-To run this game locally, follow these steps:
-
-1. Clone the repository:
-```bash
-git clone https://github.com/hurmatayub/number-guessing-game.git
-```
-
-2. Navigate to the project folder:
-```bash
-cd number-guessing-game
-```
-
-3. Install dependencies:
-```bash
-pip install streamlit
-```
-
-4. Run the application:
-```bash
-streamlit run app.py
-```
-
 ## Author
 **Hurmat Ayub**
 
