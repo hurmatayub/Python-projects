@@ -11,23 +11,6 @@ Check out the live version of the game here: [Rock Paper Scissors Game](https://
 - Displays the user's and computer's choices
 - Declares the winner based on standard game rules
 
-## Installation
-To run this project locally, follow these steps:
-
-1. Clone this repository:
-   ```sh
-   git clone https://github.com/hurmatayub/rock-paper-scissors-streamlit.git
-   cd rock-paper-scissors-streamlit
-   ```
-2. Install the required dependencies:
-   ```sh
-   pip install streamlit
-   ```
-3. Run the Streamlit app:
-   ```sh
-   streamlit run app.py
-   ```
-
 ## How to Play
 1. Select your move (Rock, Paper, or Scissors) from the dropdown menu.
 2. Click the **Play!** button.
