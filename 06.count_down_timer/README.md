@@ -11,23 +11,6 @@ Try out the countdown timer here: [Countdown Timer](https://count-dowm-timer-by-
 - Displays the remaining time in HH:MM:SS format.
 - Automatically stops when the timer reaches zero.
 
-## Installation
-To run this project locally, follow these steps:
-
-1. Clone this repository:
-   ```sh
-   git clone https://github.com/hurmatayub/countdown-timer-streamlit.git
-   cd countdown-timer-streamlit
-   ```
-2. Install the required dependencies:
-   ```sh
-   pip install streamlit
-   ```
-3. Run the Streamlit app:
-   ```sh
-   streamlit run app.py
-   ```
-
 ## How to Use
 1. Enter the desired hours, minutes, and seconds.
 2. Click the **Start Timer** button to begin the countdown.
